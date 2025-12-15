@@ -3,9 +3,9 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler
 
 async def start(update: Update, context):
-    keyboard = [[InlineKeyboardButton("🎮 Играть", url="https://t.me/creanarchycorp_bot/riseoflilboy")]]
+    keyboard = [[InlineKeyboardButton("Взойти", url="https://t.me/creanarchycorp_bot/riseoflilboy")]]
     await update.message.reply_text(
-        "Привет! Нажми кнопку чтобы начать игру 👇",
+        "Нажми кнопку, чтобы начать игру 🩸",
         reply_markup=InlineKeyboardMarkup(keyboard)
     )
 
